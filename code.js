@@ -71,7 +71,7 @@ function draw() {
 
   // Add colors to the objects
   ball.shapeColor = "white";
-  playerPaddle.shapeColor = "white";
+  playerPaddle.shapeColor = "blue";
   computerPaddle.shapeColor = "red";
 
   // Place info text in the center
