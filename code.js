@@ -58,7 +58,7 @@ ball.setVelocity(initialSpeed, initialSpeed);
 
 
 function setup() {
-var canvasWidth = windowWidth;
+  var canvasWidth = windowWidth;
   var canvasHeight = windowHeight;
   createCanvas(canvasWidth, canvasHeight);
 
@@ -181,7 +181,7 @@ function draw() {
     ball.setVelocity(ball.velocity.x * speedIncreaseFactor, ball.velocity.y * speedIncreaseFactor);
     count=count+1;
     // Increase the speed increase factor by 1.1x
-    speedIncreaseFactor *= 1.1;
+    speedIncreaseFactor *= 1.2;
       gameState="over";
       // Reset the stopwatch
     startTime = millis();
